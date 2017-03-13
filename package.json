@@ -10,7 +10,7 @@
 		"lib": "./lib"
 	},
 	"scripts": {
-		"test": "mocha --recursive -R spec"
+		"test": "./node_modules/.bin/mocha --recursive -R spec"
 	},
 	"repository": {
 		"type": "git",
